@@ -1,0 +1,18 @@
+﻿   <h1>Votre signe</h1>
+
+    <div class="container">
+        <form method="get" action="views/formulaire.php">
+            
+            Nom: <input type="text" name="nom"/>
+            Date de naissance: <input type="date" name="naissance"><br/>
+            <!-- Ano de  naissance: <input type="number" name="annee"/><br/>-->
+            <fieldset><legend>Sexe</legend>
+                <input type="radio" name="sexe" id="hom" value="homme" checked />
+                <label for="homme">Homme</label><br/>
+                <input type="radio" name="sexe" id="fem" value="femme"/>
+                <label for="fem">Femme</label>                
+            </fieldset><br/>       
+            <input type="submit" value="Envoyer"><br/>
+        </form>
+    </div>
+
